@@ -135,11 +135,6 @@ def static "common.Utilities.randomString"(
 }
 
 
-def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection"() {
-    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()
-}
-
-
 def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection"(
     	DBType type	
      , 	String server	
@@ -157,10 +152,24 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnect
 }
 
 
+def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection"() {
+    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()
+}
+
+
 def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnection"(
     	Connection conn	) {
     (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).closeConnection(
         	conn)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.execute"(
+    	Connection conn	
+     , 	String queryString	) {
+    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).execute(
+        	conn
+         , 	queryString)
 }
 
 
@@ -182,23 +191,17 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.executeUpdate
 }
 
 
-def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.execute"(
-    	Connection conn	
-     , 	String queryString	) {
-    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).execute(
-        	conn
-         , 	queryString)
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount"(
+    	ResultSet rs	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getRowCount(
+        	rs)
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
-    	ResultSet rs	
-     , 	int fromRowIndex	
-     , 	int toRowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
-        	rs
-         , 	fromRowIndex
-         , 	toRowIndex)
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount"(
+    	ResultSet rs	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getColumnCount(
+        	rs)
 }
 
 
@@ -217,38 +220,6 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellV
     (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
         	rs
          , 	columnName)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
-    	ResultSet rs	
-     , 	int rowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
-        	rs
-         , 	rowIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResult"(
-    	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).isEmptyResult(
-        	rs)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
-    	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
-        	rs)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
-    	ResultSet rs	
-     , 	String pathFile	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
-        	rs
-         , 	pathFile)
 }
 
 
@@ -274,17 +245,46 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCel
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
+    	ResultSet rs	
+     , 	int rowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
+        	rs
+         , 	rowIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
+    	ResultSet rs	
+     , 	int fromRowIndex	
+     , 	int toRowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
+        	rs
+         , 	fromRowIndex
+         , 	toRowIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
     	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getColumnCount(
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
         	rs)
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResult"(
     	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getRowCount(
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).isEmptyResult(
         	rs)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
+    	ResultSet rs	
+     , 	String pathFile	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
+        	rs
+         , 	pathFile)
 }
 
 
@@ -327,13 +327,6 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
-}
-
-
 def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
     	TestObject testObject	
      , 	String testName	) {
@@ -343,21 +336,10 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
-    	Eyes eyes	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
-        	eyes)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
-    	String baselineName	
-     , 	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
-        	baselineName
-         , 	testName
-         , 	viewportSize)
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
+    	String testName	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
+        	testName)
 }
 
 
@@ -372,4 +354,22 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
 
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
+}
+
+
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
+    	String baselineName	
+     , 	String testName	
+     , 	RectangleSize viewportSize	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
+        	baselineName
+         , 	testName
+         , 	viewportSize)
+}
+
+
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
+    	Eyes eyes	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
+        	eyes)
 }
