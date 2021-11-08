@@ -9,8 +9,6 @@ env:
       SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
       SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
 
-
-
 jobs:
   build:
     runs-on: macos-latest
