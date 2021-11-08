@@ -6,7 +6,7 @@
    <UUID>fff33056-66b5-4882-9a68-1ef3224e3156</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/avinash/workspace/katalonProjects/katalonWebUITest/TestProjectWeb.prj</projectFileLocation>
+   <projectFileLocation>/Users/avinash/workspace/GitHub/KatalonStudioGithubActions/TestProjectWeb.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
