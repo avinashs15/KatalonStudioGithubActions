@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDTSInternalData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>997efc99-2198-4ac3-8237-a02b6a3c6a94</testSuiteGuid>
+   <testCaseLink>
+      <guid>cec4c9e3-bfd9-493b-b27f-d9722eee54cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/DataTesting/TC005_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>44c6c891-58a5-470c-9e55-b5eed959c6ed</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>44c6c891-58a5-470c-9e55-b5eed959c6ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>44c6c891-58a5-470c-9e55-b5eed959c6ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

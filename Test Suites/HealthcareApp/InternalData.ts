@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>InternalData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>220d04bc-9ce1-4b55-8900-0fd0ba0d5023</testSuiteGuid>
+   <testCaseLink>
+      <guid>c69559af-af4c-4478-b6f4-1a8501bd155b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3d7e524d-30a8-4e01-b706-c0f722a82741</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3d7e524d-30a8-4e01-b706-c0f722a82741</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>6036c524-c4e1-4e91-969b-0475b6203f4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11dd605b-0858-4c70-8ce0-ffe592f775e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fa2cf5b-00e6-43a2-8fe7-34f8b7c21797</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

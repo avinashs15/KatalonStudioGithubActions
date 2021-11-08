@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCVariables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7db71b7-f782-474e-a74c-43e3be47d7bf</testCaseGuid>
+   <variable>
+      <defaultValue>'empty'</defaultValue>
+      <description></description>
+      <id>9f40fce5-3c71-4217-bb0c-3cd6f7eefd3e</id>
+      <masked>false</masked>
+      <name>testCaseAlertText</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestCaseVariable'</defaultValue>
+      <description></description>
+      <id>0cfa5660-4e3f-4377-9cfc-dae091c73f41</id>
+      <masked>false</masked>
+      <name>myNewVariable</name>
+   </variable>
+</TestCaseEntity>

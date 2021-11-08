@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_InvalidLoginLoop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e3d1ae0-186b-418e-9015-330ea6c7d59a</testCaseGuid>
+   <variable>
+      <defaultValue>'Login failed'</defaultValue>
+      <description></description>
+      <id>85cee852-2a1b-4072-95f9-21d4826d2a17</id>
+      <masked>false</masked>
+      <name>errorMsgRuntime</name>
+   </variable>
+</TestCaseEntity>

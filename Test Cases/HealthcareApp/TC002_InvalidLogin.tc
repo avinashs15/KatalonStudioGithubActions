@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_InvalidLogin</name>
+   <tag>Sanity</tag>
+   <comment></comment>
+   <testCaseGuid>b022a573-3dc5-40ec-b562-64f00ab9ce15</testCaseGuid>
+   <variable>
+      <defaultValue>'testSomeUser\r\n'</defaultValue>
+      <description></description>
+      <id>6036c524-c4e1-4e91-969b-0475b6203f4f</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'notpassword\r\n'</defaultValue>
+      <description></description>
+      <id>11dd605b-0858-4c70-8ce0-ffe592f775e6</id>
+      <masked>false</masked>
+      <name>passwordData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login failed'</defaultValue>
+      <description></description>
+      <id>2fa2cf5b-00e6-43a2-8fe7-34f8b7c21797</id>
+      <masked>false</masked>
+      <name>errorMessageRuntime</name>
+   </variable>
+</TestCaseEntity>

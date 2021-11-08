@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_BookAppointment_SelfHealing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f97cd93-1978-4b21-ac46-922fb8096f9f</testCaseGuid>
+</TestCaseEntity>

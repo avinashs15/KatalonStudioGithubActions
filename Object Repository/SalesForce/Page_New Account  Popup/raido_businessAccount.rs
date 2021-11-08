@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>raido_businessAccount</name>
+   <tag></tag>
+   <elementGuidId>34fb99e1-6790-44af-b5e6-e8e1b9ef3f3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.slds-radio--faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()=&quot;Business Account&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-radio--faux</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>1191:0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content_1067:0&quot;)/div[@class=&quot;windowViewMode-normal oneRecordActionWrapper isModal active lafPageHost&quot;]/div[@class=&quot;isModal inlinePanel oneRecordActionWrapper&quot;]/div[@class=&quot;actionBody&quot;]/div[@class=&quot;forceChangeRecordType&quot;]/div[@class=&quot;modal__content changeRecordTypeLeftRightContent&quot;]/div[@class=&quot;changeRecordTypeRow&quot;]/fieldset[@class=&quot;slds-form-element slds-no-space&quot;]/div[@class=&quot;changeRecordTypeRightColumn slds-form-element__control&quot;]/div[1]/label[@class=&quot;slds-radio&quot;]/div[@class=&quot;changeRecordTypeOptionLeftColumn&quot;]/span[@class=&quot;slds-radio--faux&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content_1067:0']/div/div/div/div/div/div/fieldset/div/div/label/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

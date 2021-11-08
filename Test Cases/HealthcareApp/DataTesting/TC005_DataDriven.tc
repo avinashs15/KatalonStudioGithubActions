@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ac181af-0a87-4ca1-96ec-9b173fdf7b58</testCaseGuid>
+   <variable>
+      <defaultValue>'someUser'</defaultValue>
+      <description></description>
+      <id>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</id>
+      <masked>false</masked>
+      <name>tcUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'somePwd'</defaultValue>
+      <description></description>
+      <id>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</id>
+      <masked>false</masked>
+      <name>tcPassword</name>
+   </variable>
+</TestCaseEntity>
