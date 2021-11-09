@@ -17,11 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/avinash/workspace/katalonProjects/katalonWebUITest/ExternalFiles/APIDemos.apk', true)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.closeApplication()
+WS.sendRequest(findTestObject('APIObjects/GetUsers'))
 

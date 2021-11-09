@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>TD001</name>
+   <name>Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>bc226aa1-57bb-44f1-8378-0238b5221d55</dataFileGUID>
-   <dataSourceUrl>C:\Users\a.ranganatha\Katalon Studio\TestProjectWeb\ExternalFiles\TestDataKatalon.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <dataFileGUID>1e46cfa8-2e8e-4b93-8bfe-1d6a43726cad</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
