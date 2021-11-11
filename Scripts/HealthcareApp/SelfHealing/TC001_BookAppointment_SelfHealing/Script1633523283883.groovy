@@ -22,41 +22,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/div_Demo account'))
+WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.doubleClick(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('HealthCareDemo/LoginPage/button_Login_selfHealing'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('HealthCareDemo/AppointmentPage/select_Facility'), 'Hongkong CURA Healthcare Center', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/radio_Medicaid_programs'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/input_Visit Date (Required)_visit_date'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
+WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/date_15'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/td_26'))
+WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'), 'Self Healing Demo')
 
-WebUI.setText(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/textarea_Comment_comment'), 'CardMRIDemo')
+WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointment'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.verifyElementVisible(findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Object Repository/CardMRIDEmo/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Logout'))
 
 WebUI.closeBrowser()
 

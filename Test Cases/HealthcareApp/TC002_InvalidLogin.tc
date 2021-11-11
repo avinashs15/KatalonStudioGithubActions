@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC002_InvalidLogin</name>
-   <tag>Sanity</tag>
+   <tag>Regression</tag>
    <comment></comment>
    <testCaseGuid>b022a573-3dc5-40ec-b562-64f00ab9ce15</testCaseGuid>
    <variable>

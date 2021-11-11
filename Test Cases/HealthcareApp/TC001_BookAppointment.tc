@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC001_BookAppointment</name>
-   <tag>Sanity</tag>
+   <tag>Regression</tag>
    <comment></comment>
    <testCaseGuid>dac96f9d-25a4-44ef-9c22-01e81c361c6b</testCaseGuid>
 </TestCaseEntity>
