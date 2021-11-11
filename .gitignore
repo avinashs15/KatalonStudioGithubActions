@@ -1,0 +1,14 @@
+
+
+.cache
+.settings/org.eclipse.jdt.core.prefs
+.DS_Store
+.DS_Store
+bin/
+appoim.log
+appium.log
+ExternalFiles/remote_caps.json
+bin/lib/
+settings/external/execution/.DS_Store
+.DS_Store
+Reports/.DS_Store
