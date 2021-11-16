@@ -21,7 +21,19 @@ import io.appium.java_client.MobileBy
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
+import io.appium.java_client.AppiumDriver
+import io.appium.java_client.android.AndroidDriver as AndroidDriver
+import io.appium.java_client.android.connection.ConnectionState
+import io.appium.java_client.android.connection.ConnectionStateBuilder
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+
+
+
+
 Mobile.startApplication(RunConfiguration.getProjectDir() + '/ExternalFiles/APIDemos.apk', true)
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+ConnectionState cs = new ConnectionStateBuilder()..withWiFiDisabled().build()
+driver.setConnection(cs)
 
 Mobile.tap(findTestObject('Object Repository/MobileApp/android.widget.Button - OK'), 0)
 
