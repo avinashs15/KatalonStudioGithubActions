@@ -18,7 +18,8 @@ jobs:
           projectPath: ${{ github.workspace }}
           args: 'katalonc -noSplash -retry=0 -testSuitePath="Test Suites/API_TestSuite" -browserType="Chrome" -apiKey="2a2b77d0-e68c-42e2-8802-1152239931e8" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
     - name: HTML Preview
-      uses: pavi2410/html-preview-action@v2
+    - uses: actions/upload-artifact@v2
       with:
-          html_file: '*.html'
+        name: HTML
+        path: Reports/**/*.html
           
