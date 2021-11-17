@@ -33,14 +33,5 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/HCTestHeadless</testSuiteEntity>
       </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HealthcareApp/BDDSuite</testSuiteEntity>
-      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

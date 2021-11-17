@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/3q/h1sgcb2n07dfh7z7c5f8v1xc0000gn/T/Katalon/Test Cases/TCBluetooth/20211116_104324/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/3q/h1sgcb2n07dfh7z7c5f8v1xc0000gn/T/Katalon/20211117_160741/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TCBluetooth', new TestCaseBinding('Test Cases/TCBluetooth',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
