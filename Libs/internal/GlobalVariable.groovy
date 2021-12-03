@@ -12,17 +12,32 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object URL
-     
-    /**
-     * <p></p>
-     */
     public static Object healthcareApp
      
     /**
      * <p></p>
      */
     public static Object fileUploadURL
+     
+    /**
+     * <p></p>
+     */
+    public static Object pizzaAPI
+     
+    /**
+     * <p></p>
+     */
+    public static Object orderID
+     
+    /**
+     * <p></p>
+     */
+    public static Object accesstoken
+     
+    /**
+     * <p></p>
+     */
+    public static Object usn
      
 
     static {
@@ -31,9 +46,12 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
     
-            URL = selectedVariables['URL']
             healthcareApp = selectedVariables['healthcareApp']
             fileUploadURL = selectedVariables['fileUploadURL']
+            pizzaAPI = selectedVariables['pizzaAPI']
+            orderID = selectedVariables['orderID']
+            accesstoken = selectedVariables['accesstoken']
+            usn = selectedVariables['usn']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

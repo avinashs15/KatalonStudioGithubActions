@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreatePizzaDataDrivenTest</name>
+   <tag>API</tag>
+   <comment></comment>
+   <testCaseGuid>0fd9b4a5-47d0-4f2d-ae7d-b7347bd1a11b</testCaseGuid>
+   <variable>
+      <defaultValue>'Chicken'</defaultValue>
+      <description></description>
+      <id>c8f6d7e7-2eff-4f2d-8640-8ce3b06abbeb</id>
+      <masked>false</masked>
+      <name>orderFlavor</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description></description>
+      <id>7b97ad6d-b3ff-4b10-bf5f-a5f42c044bbe</id>
+      <masked>false</masked>
+      <name>tableNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'L'</defaultValue>
+      <description></description>
+      <id>e8bf248f-b14e-4400-b474-209ed856c998</id>
+      <masked>false</masked>
+      <name>size</name>
+   </variable>
+   <variable>
+      <defaultValue>'thin'</defaultValue>
+      <description></description>
+      <id>05c1254e-52f0-4094-8edf-dc6e6652b2b6</id>
+      <masked>false</masked>
+      <name>crust</name>
+   </variable>
+</TestCaseEntity>

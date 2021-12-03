@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001Pizza</name>
+   <tag>API</tag>
+   <comment></comment>
+   <testCaseGuid>8f21f9a1-075a-4d6e-8741-2d81c57640d5</testCaseGuid>
+</TestCaseEntity>

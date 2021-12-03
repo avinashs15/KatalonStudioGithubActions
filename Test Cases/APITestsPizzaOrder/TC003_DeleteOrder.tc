@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCBluetooth</name>
-   <tag></tag>
+   <name>TC003_DeleteOrder</name>
+   <tag>API</tag>
    <comment></comment>
-   <testCaseGuid>4a529aab-f835-4520-8698-a87e72ec1f0e</testCaseGuid>
+   <testCaseGuid>7456f707-991e-4e45-aff5-5a3bf11e2ec0</testCaseGuid>
 </TestCaseEntity>

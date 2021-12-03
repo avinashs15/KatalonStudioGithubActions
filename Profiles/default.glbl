@@ -6,11 +6,6 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'file:///C:/Code/learnks1-home.html'</initValue>
-      <name>URL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
       <name>healthcareApp</name>
    </GlobalVariableEntity>
@@ -18,5 +13,25 @@
       <description></description>
       <initValue>'http://demo.guru99.com/test/upload/'</initValue>
       <name>fileUploadURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://order-pizza-api.herokuapp.com/'</initValue>
+      <name>pizzaAPI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6'</initValue>
+      <name>orderID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>accesstoken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>usn</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
