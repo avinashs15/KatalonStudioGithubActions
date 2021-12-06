@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/HealthcareApp/TC001_BookAppointment</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c163bd88-41a2-4757-898a-f66b64c1ef8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC001_BookAppointment</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
