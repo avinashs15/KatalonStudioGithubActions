@@ -34,7 +34,7 @@ WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/radio_Medicaid_progra
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/input_Visit Date (Required)_visit_date'), '21/01/2022')
+WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/input_Visit Date (Required)_visit_date'), '21/12/2022')
 
 WebUI.delay(2)
 
