@@ -7,17 +7,17 @@ import java.lang.String
 
 import com.kms.katalon.core.testobject.TestObject
 
-import org.openqa.selenium.WebElement
-
-import java.util.Map
+import java.util.List
 
 import com.kms.katalon.core.model.FailureHandling
 
-import java.util.List
+import org.openqa.selenium.WebElement
 
 import kms.turing.katalon.plugins.helper.table.WebTableHelper.CellTextOptions
 
 import kms.turing.katalon.plugins.helper.XPathHelper.CompareOptions
+
+import java.util.Map
 
 import com.katalon.plugin.keyword.connection.DBType
 
@@ -155,145 +155,6 @@ def static "common.getAuthorisationToken.getPizzaOrders"() {
 }
 
 
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyRowDisplayed"(
-    	WebElement table	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyRowDisplayed(
-        	table
-         , 	cellsInfo
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyRowDisplayed"(
-    	WebElement table	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyRowDisplayed(
-        	table
-         , 	cellsInfo)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getColumnIndexByHeader"(
-    	WebElement table	
-     , 	String columnHeader	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getColumnIndexByHeader(
-        	table
-         , 	columnHeader)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getColumnIndexByHeader"(
-    	WebElement table	
-     , 	String columnHeader	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getColumnIndexByHeader(
-        	table
-         , 	columnHeader
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getRowIndexByCellsInfo"(
-    	WebElement table	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getRowIndexByCellsInfo(
-        	table
-         , 	cellsInfo)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getRowIndexByCellsInfo"(
-    	WebElement table	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getRowIndexByCellsInfo(
-        	table
-         , 	cellsInfo
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.clickOnColumn"(
-    	WebElement table	
-     , 	String columnHeader	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).clickOnColumn(
-        	table
-         , 	columnHeader
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.clickOnColumn"(
-    	WebElement table	
-     , 	String columnHeader	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).clickOnColumn(
-        	table
-         , 	columnHeader)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByIndexes"(
-    	WebElement table	
-     , 	int columnIndex	
-     , 	int rowIndex	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByIndexes(
-        	table
-         , 	columnIndex
-         , 	rowIndex)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByIndexes"(
-    	WebElement table	
-     , 	int columnIndex	
-     , 	int rowIndex	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByIndexes(
-        	table
-         , 	columnIndex
-         , 	rowIndex
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByHeaderAndCellsInfo"(
-    	WebElement table	
-     , 	String columnHeader	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByHeaderAndCellsInfo(
-        	table
-         , 	columnHeader
-         , 	cellsInfo)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByHeaderAndCellsInfo"(
-    	WebElement table	
-     , 	String columnHeader	
-     , 	java.util.Map<String, java.lang.Object> cellsInfo	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByHeaderAndCellsInfo(
-        	table
-         , 	columnHeader
-         , 	cellsInfo
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyTableByColumnHeaders"(
-    	java.util.List<String> columnHeaders	
-     , 	int timeout	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyTableByColumnHeaders(
-        	columnHeaders
-         , 	timeout
-         , 	flowControl)
-}
-
-
 def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyTableByColumnHeaders"(
     	java.util.List<String> columnHeaders	) {
     (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyTableByColumnHeaders(
@@ -310,14 +171,14 @@ def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyTabl
 }
 
 
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByValueAndColHeader"(
-    	WebElement table	
-     , 	String columnHeader	
-     , 	String cellValue	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByValueAndColHeader(
-        	table
-         , 	columnHeader
-         , 	cellValue)
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyTableByColumnHeaders"(
+    	java.util.List<String> columnHeaders	
+     , 	int timeout	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyTableByColumnHeaders(
+        	columnHeaders
+         , 	timeout
+         , 	flowControl)
 }
 
 
@@ -331,6 +192,30 @@ def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCell
          , 	columnHeader
          , 	cellValue
          , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByValueAndColHeader"(
+    	WebElement table	
+     , 	String columnHeader	
+     , 	String cellValue	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByValueAndColHeader(
+        	table
+         , 	columnHeader
+         , 	cellValue)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyCellPresentWithText"(
+    	WebElement table	
+     , 	String columnHeader	
+     , 	String text	
+     , 	CellTextOptions textOption	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyCellPresentWithText(
+        	table
+         , 	columnHeader
+         , 	text
+         , 	textOption)
 }
 
 
@@ -353,12 +238,16 @@ def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyCellPr
     	WebElement table	
      , 	String columnHeader	
      , 	String text	
-     , 	CellTextOptions textOption	) {
+     , 	CellTextOptions textOption	
+     , 	CompareOptions compareOption	
+     , 	FailureHandling flowControl	) {
     (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyCellPresentWithText(
         	table
          , 	columnHeader
          , 	text
-         , 	textOption)
+         , 	textOption
+         , 	compareOption
+         , 	flowControl)
 }
 
 
@@ -373,20 +262,23 @@ def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyCellPr
 }
 
 
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyCellPresentWithText"(
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getCellsValueByColumnHeader"(
     	WebElement table	
      , 	String columnHeader	
-     , 	String text	
-     , 	CellTextOptions textOption	
-     , 	CompareOptions compareOption	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyCellPresentWithText(
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getCellsValueByColumnHeader(
         	table
          , 	columnHeader
-         , 	text
-         , 	textOption
-         , 	compareOption
          , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getCellsValueByColumnHeader"(
+    	WebElement table	
+     , 	String columnHeader	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getCellsValueByColumnHeader(
+        	table
+         , 	columnHeader)
 }
 
 
@@ -414,20 +306,128 @@ def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getColumnInd
 }
 
 
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getCellsValueByColumnHeader"(
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByHeaderAndCellsInfo"(
+    	WebElement table	
+     , 	String columnHeader	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByHeaderAndCellsInfo(
+        	table
+         , 	columnHeader
+         , 	cellsInfo
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByHeaderAndCellsInfo"(
+    	WebElement table	
+     , 	String columnHeader	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByHeaderAndCellsInfo(
+        	table
+         , 	columnHeader
+         , 	cellsInfo)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getRowIndexByCellsInfo"(
+    	WebElement table	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getRowIndexByCellsInfo(
+        	table
+         , 	cellsInfo)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getRowIndexByCellsInfo"(
+    	WebElement table	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getRowIndexByCellsInfo(
+        	table
+         , 	cellsInfo
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByIndexes"(
+    	WebElement table	
+     , 	int columnIndex	
+     , 	int rowIndex	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByIndexes(
+        	table
+         , 	columnIndex
+         , 	rowIndex
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.identifyCellByIndexes"(
+    	WebElement table	
+     , 	int columnIndex	
+     , 	int rowIndex	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).identifyCellByIndexes(
+        	table
+         , 	columnIndex
+         , 	rowIndex)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyRowDisplayed"(
+    	WebElement table	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyRowDisplayed(
+        	table
+         , 	cellsInfo)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.verifyRowDisplayed"(
+    	WebElement table	
+     , 	java.util.Map<String, java.lang.Object> cellsInfo	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).verifyRowDisplayed(
+        	table
+         , 	cellsInfo
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getColumnIndexByHeader"(
     	WebElement table	
      , 	String columnHeader	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getCellsValueByColumnHeader(
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getColumnIndexByHeader(
         	table
          , 	columnHeader)
 }
 
 
-def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getCellsValueByColumnHeader"(
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.getColumnIndexByHeader"(
     	WebElement table	
      , 	String columnHeader	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getCellsValueByColumnHeader(
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).getColumnIndexByHeader(
+        	table
+         , 	columnHeader
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.clickOnColumn"(
+    	WebElement table	
+     , 	String columnHeader	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).clickOnColumn(
+        	table
+         , 	columnHeader)
+}
+
+
+def static "kms.turing.katalon.plugins.helper.table.HTMLTableHelper.clickOnColumn"(
+    	WebElement table	
+     , 	String columnHeader	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.helper.table.HTMLTableHelper()).clickOnColumn(
         	table
          , 	columnHeader
          , 	flowControl)
@@ -490,52 +490,10 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.executeUpdate
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
-    	ResultSet rs	
-     , 	int fromRowIndex	
-     , 	int toRowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
-        	rs
-         , 	fromRowIndex
-         , 	toRowIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResult"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
     	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).isEmptyResult(
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
         	rs)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
-    	ResultSet rs	
-     , 	int rowIndex	
-     , 	int colIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
-        	rs
-         , 	rowIndex
-         , 	colIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
-    	ResultSet rs	
-     , 	int rowIndex	
-     , 	String columnName	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
-        	rs
-         , 	rowIndex
-         , 	columnName)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
-    	ResultSet rs	
-     , 	int rowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
-        	rs
-         , 	rowIndex)
 }
 
 
@@ -548,28 +506,21 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"
 }
 
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
-    	ResultSet rs	
-     , 	int columnIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
-        	rs
-         , 	columnIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
-    	ResultSet rs	
-     , 	String columnName	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
-        	rs
-         , 	columnName)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResult"(
     	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).isEmptyResult(
         	rs)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
+    	ResultSet rs	
+     , 	int fromRowIndex	
+     , 	int toRowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
+        	rs
+         , 	fromRowIndex
+         , 	toRowIndex)
 }
 
 
@@ -584,6 +535,64 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount"
     	ResultSet rs	) {
     (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getRowCount(
         	rs)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
+    	ResultSet rs	
+     , 	int rowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
+        	rs
+         , 	rowIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
+    	ResultSet rs	
+     , 	int rowIndex	
+     , 	String columnName	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
+        	rs
+         , 	rowIndex
+         , 	columnName)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
+    	ResultSet rs	
+     , 	int rowIndex	
+     , 	int colIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
+        	rs
+         , 	rowIndex
+         , 	colIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+    	ResultSet rs	
+     , 	String columnName	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+        	rs
+         , 	columnName)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+    	ResultSet rs	
+     , 	int columnIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+        	rs
+         , 	columnIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingGlobalConnection"(
+    	String fileName	
+     , 	String query	) {
+    (new com.katalon.plugin.keyword.generator.DataFileKeywords()).createUsingGlobalConnection(
+        	fileName
+         , 	query)
 }
 
 
@@ -608,12 +617,19 @@ def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingInt
 }
 
 
-def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingGlobalConnection"(
-    	String fileName	
-     , 	String query	) {
-    (new com.katalon.plugin.keyword.generator.DataFileKeywords()).createUsingGlobalConnection(
-        	fileName
-         , 	query)
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
+    	Eyes eyes	
+     , 	WebElement element	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
+        	eyes
+         , 	element)
+}
+
+
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
+    	String testName	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
+        	testName)
 }
 
 
@@ -626,19 +642,10 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
-    	Eyes eyes	
-     , 	WebElement element	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
-        	eyes
-         , 	element)
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
+    	Eyes eyes	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
+        	eyes)
 }
 
 
@@ -653,10 +660,8 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
-    	Eyes eyes	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
-        	eyes)
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
 }
 
 
@@ -669,8 +674,17 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getPreviousSiblingElement"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getPreviousSiblingElement(
+        	element)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setImplicitWait"(
+    	int seconds	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setImplicitWait(
+        	seconds)
 }
 
 
@@ -683,12 +697,12 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementsInsideP
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getShadowElement"(
-    	WebElement parent	
-     , 	String selector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getShadowElement(
-        	parent
-         , 	selector)
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setExplicitWait"(
+    	int seconds	
+     , 	int pollingTime	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setExplicitWait(
+        	seconds
+         , 	pollingTime)
 }
 
 
@@ -701,6 +715,15 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementInsidePa
 }
 
 
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getAllShadowElement"(
+    	WebElement parent	
+     , 	String selector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getAllShadowElement(
+        	parent
+         , 	selector)
+}
+
+
 def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getChildElements"(
     	WebElement parent	) {
     (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getChildElements(
@@ -708,10 +731,12 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getChildElements"(
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getSiblingElements"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getSiblingElements(
-        	element)
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getShadowElement"(
+    	WebElement parent	
+     , 	String selector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getShadowElement(
+        	parent
+         , 	selector)
 }
 
 
@@ -719,6 +744,13 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getNextSiblingEleme
     	WebElement element	) {
     (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getNextSiblingElement(
         	element)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
+    	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
+        	label)
 }
 
 
@@ -731,10 +763,26 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getSiblingElements"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getSiblingElements(
+        	element)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
     	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
         	label)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
+    	WebElement parentElement	
+     , 	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
+        	parentElement
+         , 	label)
 }
 
 
@@ -747,57 +795,32 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getSiblingElement"(
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getAllShadowElement"(
-    	WebElement parent	
-     , 	String selector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getAllShadowElement(
-        	parent
-         , 	selector)
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isChecked"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isChecked(
+        	element)
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
+    	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
+        	label)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
     	WebElement parentElement	
      , 	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
         	parentElement
          , 	label)
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
-    	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
-        	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setExplicitWait"(
-    	int seconds	
-     , 	int pollingTime	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setExplicitWait(
-        	seconds
-         , 	pollingTime)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setImplicitWait"(
-    	int seconds	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setImplicitWait(
-        	seconds)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getPreviousSiblingElement"(
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.scrollTo"(
     	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getPreviousSiblingElement(
-        	element)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isDisabled"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isDisabled(
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).scrollTo(
         	element)
 }
 
@@ -823,39 +846,16 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getParentElement"(
 }
 
 
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isDisabled"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isDisabled(
+        	element)
+}
+
+
 def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isVisible"(
     	WebElement element	) {
     (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isVisible(
-        	element)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.scrollTo"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).scrollTo(
-        	element)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
-    	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
-        	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
-    	WebElement parentElement	
-     , 	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
-        	parentElement
-         , 	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isChecked"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isChecked(
         	element)
 }
 

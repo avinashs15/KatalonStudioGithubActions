@@ -38,6 +38,8 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-WS.verifyElementPropertyValue(response, '[0].Crust', 'NORMAL')</verificationScript>
+WS.verifyElementPropertyValue(response, '[0].Crust', 'NORMAL')
+
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

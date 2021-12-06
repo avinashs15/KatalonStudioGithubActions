@@ -8,27 +8,27 @@
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Custom</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/BDDSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Custom</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/DataDrivenTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Custom</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/HCTestHeadless</testSuiteEntity>
