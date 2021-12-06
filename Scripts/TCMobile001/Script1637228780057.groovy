@@ -33,3 +33,5 @@ Mobile.verifyElementExist(findTestObject('MobileDemoOR/android.widget.TextView -
 
 Mobile.closeApplication()
 
+Mobile.checkElement(findTestObject(null), 0)
+
