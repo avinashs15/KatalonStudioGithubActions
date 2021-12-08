@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.healthcareApp)
 
 //WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Login'))

@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>errorMessageRuntime</name>
    </variable>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>6516e12f-50e9-4cf1-ad11-08f46885fc46</id>
+      <masked>false</masked>
+      <name>Url</name>
+   </variable>
 </TestCaseEntity>

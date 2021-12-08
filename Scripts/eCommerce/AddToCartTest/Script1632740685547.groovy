@@ -33,5 +33,5 @@ WebUI.delay(3)
 
 WebUI.closeBrowser()
 
-WS.sendRequest(findTestObject('APIObjects/GetUsers'))
+WS.sendRequest(findTestObject('null'))
 
