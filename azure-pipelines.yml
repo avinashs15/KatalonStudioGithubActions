@@ -1,25 +1,37 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+name: KS 8.0 Demo Pipeline
+
+## this configuration is ignored since the pipeline is already connected to github
+## and there is already a step checkout to clone script from github under 'steps'
+# resources: 
+#   repositories:
+#   - repository: Regression-api-web-combination-sample
+#     type: github
+#     ref: refs/heads/master
+#     name: kms-loantran/Regression-api-web-combination-sample
+#     endpoint: github/kms-loantran
 
 trigger:
-- main
+  - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: macOS-latest
 
-steps:
-- script: echo Hello, world!x|
-  displayName: 'Run a one-line script'
-
-
-- task: katalonTask@1
-  inputs:
-    version: '8.2.0'
-    executeArgs: 'katalonc -noSplash -runMode=console -projectPath= "${WORK_DIR}/TestProjectWeb.prj" -retry=0 -testSuiteCollectionPath="Test Suites/TSCollection01.ts " -executionProfile="default" -browserType="Chrome" -apiKey="2a2b77d0-e68c-42e2-8802-1152239931e8" -testOpsReleaseId=152827 -testOpsProjectId=222377'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+stages:
+- stage: Test
+  displayName: Run Automation script
+  jobs:
+  - job: TestOnMac
+    displayName: Run automation script on Mac
+    continueOnError: true
+    variables:  # job-level
+      VERSION: '8.0.0'
+      WORK_DIR: $(Build.Repository.LocalPath)
+      TMP_DIR: $(Build.ArtifactStagingDirectory)
+    steps:
+    - checkout: self
+      clean: true
+      fetchDepth: 5
+    - task: katalonTask@1
+      inputs:
+          version: '8.2.0'
+          executeArgs: 'katalonc -noSplash -runMode=console -projectPath= "${WORK_DIR}/TestProjectWeb.prj" -retry=0 -testSuiteCollectionPath="Test Suites/TSCollection01.ts " -executionProfile="default" -browserType="Chrome" -apiKey="2a2b77d0-e68c-42e2-8802-1152239931e8" -testOpsReleaseId=152827 -testOpsProjectId=222377'
