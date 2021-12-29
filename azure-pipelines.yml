@@ -31,7 +31,11 @@ stages:
     - checkout: self
       clean: true
       fetchDepth: 5
+    - script: |
+        ls -l
+
     - task: katalonTask@1
       inputs:
           version: '8.2.0'
-          executeArgs: 'katalonc -noSplash -runMode=console -projectPath= "${WORK_DIR}/TestProjectWeb.prj" -retry=0 -testSuitePath="Test Suites/TSCollection01.ts " -executionProfile="default" -browserType="Chrome" -apiKey="2a2b77d0-e68c-42e2-8802-1152239931e8" -testOpsReleaseId=152827 -testOpsProjectId=222377'
+          
+          executeArgs: 'katalonc -noSplash -runMode=console -projectPath= "${WORK_DIR}/TestProjectWeb.prj" -retry=0 -testSuiteCollectionPath="Test Suites/TSCollection01.ts " -executionProfile="default" -browserType="Chrome" -apiKey="2a2b77d0-e68c-42e2-8802-1152239931e8" -testOpsReleaseId=152827 -testOpsProjectId=222377'
