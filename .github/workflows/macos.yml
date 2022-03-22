@@ -23,4 +23,3 @@ jobs:
           args: 'katalonc -noSplash -retry=0 -testSuiteCollectionPath="Test Suites/TSCollection01"  -orgID=215463 -testOpsReleaseId=191897 -testOpsProjectId=485403 -apiKey="${{secrets.KATALON_API_KEY}}" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
           
           
-          
