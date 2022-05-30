@@ -25,7 +25,7 @@ WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggl
 
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Login'))
 
-CustomKeywords.'common.BusinessLogic.LoginToHealthcareApp'()
+CustomKeywords.'common.BusinessLogic.LoginApplicationUsingUSNAndPwd'('John Doe', 'ThisIsNotAPassword')
 
 WebUI.selectOptionByValue(findTestObject('HealthCareDemo/AppointmentPage/select_Facility'), 'Hongkong CURA Healthcare Center', 
     false)
@@ -41,6 +41,8 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'), (('Test Automation_' + Utilities.randomString(
         'asdaswereewdsfg', 10)) + '_Browser_') + Utilities.getBrowserName())
 
+WebUI.takeElementScreenshotAsCheckpoint('DemoScreenshot', findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'))
+
 WebUI.takeElementScreenshotAsCheckpoint('textArea', findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'))
 
 WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointment'))
@@ -48,6 +50,10 @@ WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointme
 WebUI.verifyElementVisible(findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
 
 WebUI.takeElementScreenshotAsCheckpoint('testAppointment', findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
+
+WebUI.takeElementScreenshotAsCheckpoint('H2ScreenObject', findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('FullpageAppointment')
 
 WebUI.delay(2)
 

@@ -3,35 +3,29 @@
    <description></description>
    <name>TSCollection</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
+            <groupName>Web Desktop</groupName>
+            <profileName>AcceptanceEnv</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HealthcareApp/BDDSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HealthcareApp/Sanity</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
+            <groupName>Web Desktop</groupName>
+            <profileName>DevEnvironment</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HealthcareApp/DataDrivenTestSuite</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>saucelabs_default</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HealthcareApp/HCTestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HealthcareApp/Sanity</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

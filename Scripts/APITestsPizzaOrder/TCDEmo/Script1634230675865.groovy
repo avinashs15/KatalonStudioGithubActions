@@ -17,14 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import static org.assertj.core.api.Assertions.*
 import common.Utilities as Utilities
-
-
-import com.kms.katalon.core.webservice.verification.WSResponseManager
-
-import groovy.json.JsonSlurper
-import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webservice.verification.WSResponseManager as WSResponseManager
+import groovy.json.JsonSlurper as JsonSlurper
 
 WS.sendRequest(findTestObject('PizzaAppAPI/GetPizzaorder'))
-WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)

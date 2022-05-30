@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test001</name>
+   <tag>Sanity,Regression,feature01</tag>
+   <comment></comment>
+   <testCaseGuid>3ae15164-841e-4f05-808d-0a474d4484d2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>45005cfa-73e0-47f4-9e1b-b4bb1bb901bc</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/EcommerceData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>45005cfa-73e0-47f4-9e1b-b4bb1bb901bc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>firstName</value>
+      <variableId>9ab2c17b-4f63-4c5c-a7b4-c5863d80e842</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>45005cfa-73e0-47f4-9e1b-b4bb1bb901bc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>LastName</value>
+      <variableId>82a55fbf-8c63-4428-ba51-c0b91166669e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>45005cfa-73e0-47f4-9e1b-b4bb1bb901bc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>zipCode</value>
+      <variableId>63bd41f7-6cfa-43b7-948c-6a49234ff31a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jon'</defaultValue>
+      <description></description>
+      <id>9ab2c17b-4f63-4c5c-a7b4-c5863d80e842</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Snow'</defaultValue>
+      <description></description>
+      <id>82a55fbf-8c63-4428-ba51-c0b91166669e</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'winterfell'</defaultValue>
+      <description></description>
+      <id>63bd41f7-6cfa-43b7-948c-6a49234ff31a</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>
