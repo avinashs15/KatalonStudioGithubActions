@@ -21,13 +21,15 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>7fa6682b-67d8-42de-902d-23c375a6001d</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU4NjY0MzksIm5iZiI6MTYzNTg2NjQzOSwianRpIjoiMTYxNDFjNDYtNTNmOS00YzNmLTg4YmMtZjRlNTIyODk4M2Q5IiwiZXhwIjoxNjM1ODY3MzM5LCJpZGVudGl0eSI6InRlc3QiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.7vMb-frsxhB_ZMpdy65nwhLA1IZbbA-4uw0M6fhbdeY&quot;</value>
+      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTM5MTU1NTUsIm5iZiI6MTY1MzkxNTU1NSwianRpIjoiN2Y1NDhmNzYtNWY1Zi00OTkwLTg2ZjYtMDk3ODU0Zjg2ZDA2IiwiZXhwIjoxNjUzOTE2NDU1LCJpZGVudGl0eSI6InRlc3QiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.EAPM9NMPPDfO68HZ-Z9C_-e7L-ellBD0DFwrQnevdHU</value>
+      <webElementGuid>4412e42f-7d3f-4625-93fb-a312fad7a5c3</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.0.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>

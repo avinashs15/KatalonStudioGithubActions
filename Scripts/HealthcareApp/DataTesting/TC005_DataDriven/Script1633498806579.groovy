@@ -25,9 +25,9 @@ WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggl
 
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), tcUserName)
+WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), userName)
 
-WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), tcPassword)
+WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), password)
 
 WebUI.click(findTestObject('HealthCareDemo/LoginPage/button_Login'))
 

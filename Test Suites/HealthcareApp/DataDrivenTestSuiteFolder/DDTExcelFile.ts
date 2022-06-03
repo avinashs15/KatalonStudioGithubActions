@@ -25,6 +25,15 @@
          </iterationEntity>
          <testDataId>Data Files/AutomationData</testDataId>
       </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>79f260c9-7234-4813-8da1-833262506d28</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ExcelData</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>ce8cfb57-e30e-40fd-9f2f-8b150f0b117e</testDataLinkId>

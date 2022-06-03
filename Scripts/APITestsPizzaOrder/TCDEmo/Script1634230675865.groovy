@@ -20,5 +20,5 @@ import common.Utilities as Utilities
 import com.kms.katalon.core.webservice.verification.WSResponseManager as WSResponseManager
 import groovy.json.JsonSlurper as JsonSlurper
 
-WS.sendRequest(findTestObject('PizzaAppAPI/GetPizzaorder'))
+WS.sendRequestAndVerify(findTestObject('PizzaAppAPI/GetPizzaorder'))
 

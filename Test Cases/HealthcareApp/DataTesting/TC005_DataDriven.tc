@@ -7,7 +7,7 @@
    <testCaseGuid>0ac181af-0a87-4ca1-96ec-9b173fdf7b58</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>6974dc90-e968-42c9-a5e3-1479b40ffec1</id>
+      <id>8a9ebb62-5fe5-4b18-86fb-ff5bc664e4cb</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,13 +15,13 @@
       <testDataId>Data Files/ExcelData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>6974dc90-e968-42c9-a5e3-1479b40ffec1</testDataLinkId>
+      <testDataLinkId>8a9ebb62-5fe5-4b18-86fb-ff5bc664e4cb</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>userName</value>
       <variableId>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>6974dc90-e968-42c9-a5e3-1479b40ffec1</testDataLinkId>
+      <testDataLinkId>8a9ebb62-5fe5-4b18-86fb-ff5bc664e4cb</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
       <variableId>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</variableId>
@@ -31,13 +31,13 @@
       <description></description>
       <id>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</id>
       <masked>false</masked>
-      <name>tcUserName</name>
+      <name>userName</name>
    </variable>
    <variable>
       <defaultValue>'somePwd'</defaultValue>
       <description></description>
       <id>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</id>
       <masked>false</masked>
-      <name>tcPassword</name>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

@@ -91,6 +91,12 @@ class Utilities {
 	}
 
 	@Keyword
+	def static String getDatePlusTen() {
+		Date date = new Date().plus(30)
+		return date.format("dd-mm-yyyy").toString();
+	}
+
+	@Keyword
 	def static String randomString(String chars, int length) {
 		Random rand = new Random()
 		StringBuilder sb = new StringBuilder()
