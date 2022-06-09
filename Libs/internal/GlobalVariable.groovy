@@ -39,6 +39,11 @@ public class GlobalVariable {
      */
     public static Object usn
      
+    /**
+     * <p></p>
+     */
+    public static Object APIUSN
+     
 
     static {
         try {
@@ -52,6 +57,7 @@ public class GlobalVariable {
             orderID = selectedVariables['orderID']
             accesstoken = selectedVariables['accesstoken']
             usn = selectedVariables['usn']
+            APIUSN = selectedVariables['APIUSN']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -31,7 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'John Doe'</initValue>
+      <initValue>'test'</initValue>
       <name>usn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>APIUSN</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

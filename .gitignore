@@ -10,3 +10,15 @@ settings/external/execution/.DS_Store
 Reports/
 appium.log
 bin/lib/CustomKeywords.class
+Libs/CustomKeywords.groovy
+Libs/internal/GlobalVariable.groovy
+Libs/TempTestCase1654252380618.groovy
+Libs/TempTestCase1654261536475.groovy
+Libs/TempTestCase1654261633862.groovy
+Libs/TempTestCase1654261738016.groovy
+Libs/TempTestCase1654263079581.groovy
+Libs/TempTestCase1654263252971.groovy
+Libs/TempTestCase1654510664697.groovy
+Libs/TempTestCase1654510873857.groovy
+Libs/TempTestSuite1654261635788.groovy
+Libs/TempTestCase1654252380618.groovy

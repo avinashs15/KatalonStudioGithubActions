@@ -3,6 +3,16 @@
    <description></description>
    <name>TC001_BookAppointment</name>
    <tag>Regression</tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>1001</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>dac96f9d-25a4-44ef-9c22-01e81c361c6b</testCaseGuid>
 </TestCaseEntity>

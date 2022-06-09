@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC003_BDD</name>
-   <tag></tag>
+   <tag>Sanity,Regression</tag>
    <comment></comment>
    <testCaseGuid>73277796-413d-4b58-939a-3a90b4fe779d</testCaseGuid>
 </TestCaseEntity>

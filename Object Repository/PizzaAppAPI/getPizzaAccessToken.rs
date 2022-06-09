@@ -20,7 +20,8 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>text/plain</value>
+      <webElementGuid>f7133093-edd9-4ca1-98b1-53c682566cf1</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.0.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>

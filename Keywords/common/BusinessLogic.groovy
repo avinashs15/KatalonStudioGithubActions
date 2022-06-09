@@ -32,7 +32,6 @@ public class BusinessLogic {
 	def LoginApplicationUsingUSNAndPwd(String userName, String passWord) {
 		WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), userName)
 		WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), passWord)
-
 		WebUI.click(findTestObject('HealthCareDemo/LoginPage/button_Login'))
 	}
 

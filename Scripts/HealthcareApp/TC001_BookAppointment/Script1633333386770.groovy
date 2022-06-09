@@ -41,13 +41,11 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'), (('Test Automation_' + Utilities.randomString(
         'asdaswereewdsfg', 10)) + '_Browser_') + Utilities.getBrowserName())
 
-WebUI.takeElementScreenshotAsCheckpoint('DemoScreenshot', findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'))
-
-WebUI.takeElementScreenshotAsCheckpoint('textArea', findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'))
-
 WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointment'))
 
 WebUI.verifyElementVisible(findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
+
+WebUI.takeAreaScreenshotAsCheckpoint('', null)
 
 WebUI.takeElementScreenshotAsCheckpoint('testAppointment', findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
 

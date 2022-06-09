@@ -19,7 +19,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>048d3d88-2428-485a-9777-2776edb047d7</guid>
+      <guid>85f41440-03fc-44ac-952b-7a96aa253d25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLogin</testCaseId>
@@ -50,17 +50,23 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>54937d55-18f9-4ed8-8ee7-75418f2a917c</guid>
+      <guid>81f7f3f2-5a40-4f86-be60-5b0bfedad84b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLoginLoop</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85cee852-2a1b-4072-95f9-21d4826d2a17</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63c667c8-9a44-41ad-9949-e66869b02a74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HealthcareApp/TC003_BDD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9a1f3e5d-f22a-4b27-be82-8721d9299895</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HealthcareApp/TC004_CreateObjectAtRuntime</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

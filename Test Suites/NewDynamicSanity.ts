@@ -13,5 +13,5 @@
    <testSuiteGuid>661a906b-b07d-4091-a1d9-8e13cae9b86d</testSuiteGuid>
    <filteringExtension>com.katalon.plugin.dynamic_execution.DynamicFilteringTestSuiteImpl</filteringExtension>
    <filteringPlugin>com.katalon.katalon-studio-dynamic-execution-plugin</filteringPlugin>
-   <filteringText>tag=(Sanity) </filteringText>
+   <filteringText>tag=(Regression) </filteringText>
 </FilteringTestSuiteEntity>
