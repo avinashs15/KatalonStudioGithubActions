@@ -45,10 +45,6 @@ WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointme
 
 WebUI.verifyElementVisible(findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
 
-WebUI.takeAreaScreenshotAsCheckpoint('', null)
-
-WebUI.takeElementScreenshotAsCheckpoint('testAppointment', findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
-
 WebUI.takeElementScreenshotAsCheckpoint('H2ScreenObject', findTestObject('HealthCareDemo/AppointmentPage/h2_Appointment Confirmation'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('FullpageAppointment')

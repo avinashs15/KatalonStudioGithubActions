@@ -168,5 +168,6 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/configuration/plugin/install/205498/3.5.3/Browserstack_Integration_3.5.3.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/configuration/plugin/install/206222/0.1.1/shadow-automation-katalon-plugin-all.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
