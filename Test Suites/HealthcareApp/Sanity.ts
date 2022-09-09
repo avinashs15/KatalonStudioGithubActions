@@ -12,10 +12,54 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6957ddc6-11e5-4b71-bf90-5a26e4348d81</testSuiteGuid>
    <testCaseLink>
-      <guid>46e830cb-a789-4e62-8d1f-dff32f28e7c6</guid>
+      <guid>dc7fb344-f2d2-437e-91ed-c99e9051a66e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DP-1 Test Task</testCaseId>
+      <testCaseId>Test Cases/HealthcareApp/TC001_BookAppointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1dcd749a-245a-4ca2-b0b6-82920793ca6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLogin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6036c524-c4e1-4e91-969b-0475b6203f4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11dd605b-0858-4c70-8ce0-ffe592f775e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fa2cf5b-00e6-43a2-8fe7-34f8b7c21797</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6516e12f-50e9-4cf1-ad11-08f46885fc46</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27edd663-1f45-486b-ada7-f2855b5108fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLoginLoop</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85cee852-2a1b-4072-95f9-21d4826d2a17</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
