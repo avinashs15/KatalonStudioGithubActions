@@ -161,13 +161,15 @@
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/208197/1.0.3/katalon-studio-microsoftteam-keywords-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/206222/0.1.1/shadow-automation-katalon-plugin-all.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/org.eclipse.osgi/31/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
+	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/org.eclipse.osgi/31/0/.cp/resources/applitools/katalon-studio-applitools-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/205497/1.0.1/katalon-studio-htmltable-custom-keywords-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/204141/1.0.2/katalon-dbms-keywords.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/205813/1.0.1/katalon-studio-chrome-devtools-protocol-plugin.jar"/>
+	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/205007/1.0.1/katalon-studio-saucelabs-plugin.jar"/>
+	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/207328/1.0.1/katalon-studio-testlink-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/205498/3.5.3/Browserstack_Integration_3.5.3.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/211249/1.0.1/katalon-plugin-assert-custom-keyword.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/208196/1.2.0/Katalon Gmail.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

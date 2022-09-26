@@ -63,10 +63,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>63c667c8-9a44-41ad-9949-e66869b02a74</guid>
+      <guid>20398e3c-9c31-4455-a194-43731bcadd6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HealthcareApp/TC003_BDD</testCaseId>
+      <testCaseId>Test Cases/HealthcareApp/TC004_CreateObjectAtRuntime</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
