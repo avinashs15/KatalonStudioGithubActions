@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/input_Visit Date (R
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'), (('Test Automation_' + Utilities.randomString(
+WebUI.setText(findTestObject('HealthCareDemo/AppointmentPage/textarea_Comment_comment'), (('Test AutomationChanged_' + Utilities.randomString(
         'asdaswereewdsfg', 10)) + '_Browser_') + Utilities.getBrowserName())
 
 WebUI.click(findTestObject('HealthCareDemo/AppointmentPage/button_Book Appointment'))
