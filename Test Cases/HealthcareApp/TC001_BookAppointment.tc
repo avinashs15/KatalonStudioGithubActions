@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC001_BookAppointment</name>
-   <tag>Regression</tag>
+   <tag>Regression,Feature01</tag>
    <integratedEntity>
       <productName>Azure</productName>
       <properties>

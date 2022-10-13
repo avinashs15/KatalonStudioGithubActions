@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobiletest001</name>
+   <tag>Regression,Feature01</tag>
+   <comment></comment>
+   <testCaseGuid>e8e05388-b8b0-44ad-a7be-4c99220398df</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbc3c7e0-3082-47ad-a681-1b409cf98896</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'sdadsadd'</defaultValue>
+      <description></description>
+      <id>bbc3c7e0-3082-47ad-a681-1b409cf98896</id>
+      <masked>false</masked>
+      <name>TestDemoText</name>
+   </variable>
+</TestCaseEntity>

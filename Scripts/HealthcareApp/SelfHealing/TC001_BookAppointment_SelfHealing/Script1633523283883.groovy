@@ -53,3 +53,5 @@ WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Logout'))
 
 WebUI.closeBrowser()
 
+WS.sendRequestAndVerify(findTestObject('PizzaAppAPI/getPizzaOrders'))
+

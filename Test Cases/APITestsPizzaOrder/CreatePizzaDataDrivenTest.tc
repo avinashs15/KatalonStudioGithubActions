@@ -5,6 +5,39 @@
    <tag>API</tag>
    <comment></comment>
    <testCaseGuid>0fd9b4a5-47d0-4f2d-ae7d-b7347bd1a11b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>47282992-c333-4b39-8a8b-2ab91236d6bf</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestDataPizza</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8f6d7e7-2eff-4f2d-8640-8ce3b06abbeb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b97ad6d-b3ff-4b10-bf5f-a5f42c044bbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8bf248f-b14e-4400-b474-209ed856c998</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05c1254e-52f0-4094-8edf-dc6e6652b2b6</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Chicken'</defaultValue>
       <description></description>
