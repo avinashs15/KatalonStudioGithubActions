@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Workspace\\KatalonPlatformProjects\\KatalonStudioGithubActions\\ExternalFiles\\APIDemos.apk', 
-    true)
+Mobile.startExistingApplication('com.hmh.api', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/NewTestrepo/android.widget.TextView - Text'), 0)
 
