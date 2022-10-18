@@ -3,6 +3,16 @@
    <description></description>
    <name>TC001_BookAppointment_SelfHealing</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>1198</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>2f97cd93-1978-4b21-ac46-922fb8096f9f</testCaseGuid>
 </TestCaseEntity>

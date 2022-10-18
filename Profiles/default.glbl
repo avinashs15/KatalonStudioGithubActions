@@ -39,4 +39,9 @@
       <initValue>''</initValue>
       <name>APIUSN</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sadasdasd'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

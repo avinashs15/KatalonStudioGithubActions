@@ -20,15 +20,15 @@ import common.Utilities as Utilities
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.healthcareApp)
 
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('HealthCareDemo/HomePage/a_Login'))
 
-WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('HealthCareDemo/LoginPage/input_Username_username'), GlobalVariable.usn)
 
-WebUI.setEncryptedText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('HealthCareDemo/LoginPage/input_Password_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('HealthCareDemo/LoginPage/button_Login_selfHealing'))
 

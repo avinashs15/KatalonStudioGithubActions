@@ -7,7 +7,7 @@
    <testCaseGuid>0ac181af-0a87-4ca1-96ec-9b173fdf7b58</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>1213316d-84a0-48ad-8283-4413023918df</id>
+      <id>f19f31f1-2cf4-4efe-ab43-7c1404f59b0f</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,13 +15,13 @@
       <testDataId>Data Files/ExcelData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>1213316d-84a0-48ad-8283-4413023918df</testDataLinkId>
+      <testDataLinkId>f19f31f1-2cf4-4efe-ab43-7c1404f59b0f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>userName</value>
       <variableId>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>1213316d-84a0-48ad-8283-4413023918df</testDataLinkId>
+      <testDataLinkId>f19f31f1-2cf4-4efe-ab43-7c1404f59b0f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
       <variableId>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</variableId>

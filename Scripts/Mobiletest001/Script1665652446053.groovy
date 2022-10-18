@@ -22,7 +22,7 @@ Mobile.startApplication('D:\\Workspace\\KatalonPlatformProjects\\KatalonStudioGi
 
 Mobile.tap(findTestObject('Object Repository/NewTestrepo/android.widget.TextView - Text'), 0)
 
-Mobile.tap(findTestObject('Object Repository/NewTestrepo/android.widget.TextView - LogTextBox'), 0)
+Mobile.tap(findTestObject('Object Repository/NewTestrepo/LogTextBox'), 0)
 
 Mobile.setText(findTestObject('Object Repository/NewTestrepo/android.widget.TextView'), TestDemoText, 0)
 

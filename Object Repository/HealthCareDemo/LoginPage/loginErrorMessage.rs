@@ -6,12 +6,11 @@
    <elementGuidId>b1a39a19-31a9-4534-908b-16445a7619a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p[@class=&quot;lead text-danger&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

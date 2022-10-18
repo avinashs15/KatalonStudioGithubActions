@@ -6,19 +6,19 @@
    <elementGuidId>4e0ea32b-3c1a-4136-beb0-02cec11cae8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btn-login</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login_Old']</value>
+         <value>//button[@id='btn-login']</value>
       </entry>
       <entry>
          <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

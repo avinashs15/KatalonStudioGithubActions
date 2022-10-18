@@ -34,4 +34,9 @@
       <initValue>'John Doe'</initValue>
       <name>usn</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ydGZYy69kBjWvmL+om4ys9BizvX0ETaO'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
