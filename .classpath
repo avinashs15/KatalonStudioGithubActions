@@ -156,8 +156,8 @@
 			<attribute name="javadoc_location" value="file:/D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Workspace/KatalonPlatformProjects/KatalonStudioGithubActions/Drivers/mssql-jdbc-9.4.0.jre11.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/KatalonPlatformProjects/KatalonStudioGithubActions/Drivers/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Avinash/Katalon Studio/KatalonStudioGithubActions (4)/Drivers/mssql-jdbc-9.4.0.jre11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Avinash/Katalon Studio/KatalonStudioGithubActions (4)/Drivers/mysql-connector-java-8.0.26.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/208197/1.0.3/katalon-studio-microsoftteam-keywords-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/plugin/install/206222/0.1.1/shadow-automation-katalon-plugin-all.jar"/>
 	<classpathentry kind="lib" path="D:/Katalon_Studio_PE_Windows_64-8.5.0/configuration/org.eclipse.osgi/31/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
