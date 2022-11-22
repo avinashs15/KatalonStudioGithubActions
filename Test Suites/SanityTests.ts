@@ -62,11 +62,4 @@
          <variableId>85cee852-2a1b-4072-95f9-21d4826d2a17</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>147878c9-074e-4dd4-8284-544104fca9ca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HealthcareApp/TC004_CreateObjectAtRuntime</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

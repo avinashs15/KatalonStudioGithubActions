@@ -18,4 +18,67 @@
       <testCaseId>Test Cases/HealthcareApp/TC001_BookAppointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>736293ea-681e-4457-b3b5-fb88dd468d61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLogin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6036c524-c4e1-4e91-969b-0475b6203f4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11dd605b-0858-4c70-8ce0-ffe592f775e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fa2cf5b-00e6-43a2-8fe7-34f8b7c21797</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6516e12f-50e9-4cf1-ad11-08f46885fc46</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86df1c19-ac2a-4018-a425-70a10304d430</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/TC002_InvalidLoginLoop</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85cee852-2a1b-4072-95f9-21d4826d2a17</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3653434-b407-41fe-ba94-7bbb4e7cdb5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HealthcareApp/DataTesting/TC005_DataDriven</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb195f27-3fa3-4ee0-84eb-d0faeef61fcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e95d8ba4-e9b8-4835-a362-c7c12b4e5498</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

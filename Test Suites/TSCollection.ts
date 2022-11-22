@@ -60,9 +60,24 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>AcceptanceEnv</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <profileName>DevEnvironment</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 100,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;msedge&quot;,
+  &quot;browserDisplayName&quot;: &quot;Edge Chromium&quot;,
+  &quot;browserVersion&quot;: &quot;103&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/Sanity</testSuiteEntity>
@@ -71,8 +86,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>DevEnvironment</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 78,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;internet explorer&quot;,
+  &quot;browserDisplayName&quot;: &quot;Internet Explorer&quot;,
+  &quot;browserVersion&quot;: &quot;11&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/HealthcareApp/Sanity</testSuiteEntity>
