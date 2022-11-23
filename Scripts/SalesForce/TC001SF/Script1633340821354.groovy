@@ -23,39 +23,39 @@ WebUI.openBrowser('https://katalon-inc--demo.my.salesforce.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('SalesForce/Page_Login  Salesforce/input_Username_username'), 'avinash.ranganatha@katalon.com')
+WebUI.setText(findTestObject('null'), 'avinash.ranganatha@katalon.com')
 
-WebUI.setEncryptedText(findTestObject('SalesForce/Page_Login  Salesforce/input_Password_pw'), 'zEUcwQbRsi3fgls/TnbcFg==')
+WebUI.setEncryptedText(findTestObject('null'), 'zEUcwQbRsi3fgls/TnbcFg==')
 
-WebUI.click(findTestObject('SalesForce/Page_Login  Salesforce/input_Password_Login'))
+WebUI.click(findTestObject('null'))
 
 not_run: WebUI.delay(15)
 
 WebUI.enableSmartWait()
 
-WebUI.click(findTestObject('SalesForce/Page_Home  Salesforce/span_Chatter'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('SalesForce/Page_Home  Salesforce/svg_Accounts_btn_dropdown'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SalesForce/Page_Home  Salesforce/span_New Account'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('SalesForce/Page_New Account  Popup/raido_businessAccount'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SalesForce/Page_New Account  Popup/btn_Next'))
+WebUI.click(findTestObject('null'))
 
 def userName = 'TestAutomationDemo' + Utilities.randomString('TestAsds', 5)
 
-WebUI.setText(findTestObject('SalesForce/Page_New Account  Popup/text_AccountName'), userName)
+WebUI.setText(findTestObject('null'), userName)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SalesForce/Page_New Account  Popup/btn_Save'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SalesForce/Page_Home  Salesforce/span_Accounts'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 
@@ -63,9 +63,9 @@ TestObject linkuserName = AppObjects.GetObjectByTypeAndProperty('xpath', ('//a[t
 
 WebUI.verifyElementPresent(linkuserName, 5)
 
-WebUI.click(findTestObject('SalesForce/TopPanel/btnUserProfile'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('SalesForce/TopPanel/a_Log Out'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 

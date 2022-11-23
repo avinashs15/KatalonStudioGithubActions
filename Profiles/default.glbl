@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'asdasdasd'</initValue>
       <name>APIUSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sadasdasd'</initValue>
+      <initValue>'ThisIsNotAPassword'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
